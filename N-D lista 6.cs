@@ -4,7 +4,7 @@ using System;
     class Program
 	  {
 	
-	    public static void Main(string[] args)
+	    static void Main()
 	    {
 	    	Console.WriteLine("informe um dia especifico do ano (yyyy-mm-dd)");
 	    	DateTime data = DateTime.Parse(Console.ReadLine());
@@ -21,7 +21,7 @@ using System;
 	    	Console.WriteLine("esta data não é um feriado nacional");	
 	    	}
 	    	
-	    	Console.WriteLine ("aperte qualquer coisa para sair");
+	    	Console.WriteLine("Clique em qualquer botão para encerrar...");
 	    	Console.ReadKey();
 	    }
 	}
